@@ -40,6 +40,12 @@ jobs:
           sudo apt-get -y install build-essential uuid-dev clang llvm iasl nasm gcc-aarch64-linux-gnu abootimg python3-distutils python3-pil python3-git gettext libgcc-s1:i386 libstdc++6:i386
           sudo apt-get install --install-recommends winehq-stable
 
+      - name: Clone edk2 from hiratazx
+        run: |
+          rm -rf Common/edk2*
+          git clone https://github.com/hiratazx/edk2 --depth=1 Common/edk2
+          git clone https://github.com/tianocore/edk2-platforms --depth=1 Common/edk2-platforms
+
       - name: Build an image for ${{ matrix.device }}
         run: |
           ./build.sh --device ${{ matrix.device }}
