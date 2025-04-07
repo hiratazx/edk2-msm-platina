@@ -193,6 +193,44 @@ READ_LOCK_STATUS   = TRUE
   INF Platform/RenegadePkg/Drivers/LogoDxe/LogoDxe.inf
 
   #
+  # Some platina stuff
+  #
+  INF Binaries/platina/QcomPkg/Drivers/PlatformInfoDxe/PlatformInfoDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/ButtonsDxe/ButtonsDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/PmicDxe/PmicDxeLa.inf
+  INF Binaries/platina/QcomPkg/Drivers/ChargerExDxe/ChargerExDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/QcomChargerDxe/QcomChargerDxeLA.inf
+  INF Binaries/platina/QcomPkg/Drivers/AdcDxe/AdcDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/TsensDxe/TsensDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/LimitsDxe/LimitsDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/MpPowerDxe/MpPowerDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/UsbfnDwc3Dxe/UsbfnDwc3Dxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/UsbMsdDxe/UsbMsdDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/UsbDeviceDxe/UsbDeviceDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/UsbConfigDxe/UsbConfigDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/HashDxe/HashDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/RNGDxe/RngDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/QdssDxe/QdssDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/DisplayDxe/DisplayDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/DALSYSDxe/DALSYSDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/ClockDxe/ClockDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/HWIODxe/HWIODxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/I2CDxe/I2CDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/SPIDxe/SPIDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/SPMIDxe/SPMIDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/SdccDxe/SdccDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/UFSDxe/UFSDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/TLMMDxe/TLMMDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/ULogDxe/ULogDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/NpaDxe/NpaDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/ChipInfoDxe/ChipInfoDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/GLinkDxe/GLinkDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/SmemDxe/SmemDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/FontDxe/FontDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/EnvDxe/EnvDxe.inf
+  INF Binaries/platina/QcomPkg/Drivers/MdtpDxe/MdtpDxe.inf
+
+  #
   # Windows kernel patcher
   #
   INF Platform/RenegadePkg/Drivers/KernelErrataPatcher/KernelErrataPatcher.inf
